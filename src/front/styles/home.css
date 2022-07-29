@@ -1,7 +1,376 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.titulo1 {
+  font-weight: 855;
+  font-size: 85px;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+.title1 {
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.camposform {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.titulo1 {
+  font-weight: 855;
+  font-size: 70px;
+}
+body {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  border-radius: 10px;
+  border-color: #d4d2d2;
+}
+
+/* #containerSectores img{
+  overflow: hidden;
+  box-shadow: 6px;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+
+.tituloabout {
+  font-family: "Raleway", sans-serif;
+  
+}
+
+
+.tituloabout2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.tituloabout3 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-top: 70px;
+}
+
+.texto1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.aboutus {
+  max-height: 350px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+}
+
+.aboutus2 {
+  max-height: 350px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+
+.img-home1 {
+  max-height: 350px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0px 12% 15px 12%;
+}
+.card1 {
+  border-color: white;
+  text-align: center;
+}
+
+.img-home2 {
+  max-height: 350px;
+  border-radius: 65px 5px;
+  box-sizing: border-box;
+  float: left;
+  margin: 0px 12% 15px 12%;
+}
+
+.col-sm-3 {
+  text-align: center;
+}
+
+.img-title1 {
+  font-size: 100%;
+}
+.img-title2 {
+  font-size: 100%;
+}
+
+#Login-us {
+  padding-left: 50px;
+  border-color: lightgrey;
+  border-radius: 10px;
+  max-width: 650px;
+}
+
+#modal-login {
+  min-width: 700px;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-size: 100%;
+  min-height: 100px;
+  justify-content: center;
+  align-content: center;
+}
+
+#box1 {
+  margin: 0;
+  padding: 20px;
+}
+
+#Title-h4 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#Reg {
+  margin-top: 50px;
+  max-width: 1000px;
+}
+#imgPerfil {
+  background: url("https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  opacity: 80%;
+}
+#imgPerfil2 {
+  background: url("https://media.istockphoto.com/photos/social-media-concept-picture-id1205703732?k=20&m=1205703732&s=612x612&w=0&h=RjnvKZW_InJ73SoPzQVA8qj5bcg6_0yBgPx_JUtrn2k=");
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  opacity: 80%;
+}
+.p-5 {
+  color: #ffffff;
+  height: 800px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.sectores {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.hover {
+  text-decoration: none;
+  color: black;
+}
+
+.hover:hover {
+  color: #156fd0;
+}
+
+.text-white {
+  text-decoration: none;
+  color: white;
+}
+
+.text-white:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-item mx-3 text-black {
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navbar-item {
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.subtitulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: white !important;
+  margin-top: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+.antetitulo {
+  font-family: "Permanent Marker", cursive;
+  color: #fbd63d;
+  font-size: 24px;
+  margin-top: 160px;
+}
+
+.antetitulo2 {
+  font-family: "Permanent Marker", cursive;
+  color: #302880;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.modal-header {
+  background: #302880 !important;
+}
+
+.antetitulo3 {
+  font-family: "Permanent Marker", cursive;
+  color: #fbd63d;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.antetitulo4 {
+  font-family: "Permanent Marker", cursive;
+  color: #302880;
+  font-size: 24px;
+  text-align: center;
+}
+.sesion {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#link {
+  text-decoration: none;
+}
+
+.menu {
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+  background-color: #fbd63d;
+  border-color: #fbd63d;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: medium;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #302880;
+  border-color: #302880;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: medium;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+  background-color: #302880;
+  border-color: #302880;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+
+.bg-dark {
+  background-color: #302880;
+  border-color: #302880;
+}
+
+.py-14 {
+  background-color: #302880;
+}
+
+.accordion-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.accordion-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.card-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.busqueda {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 43px;
+}
+
+.card bg-primary cuadro {
+  background-color: #302880;
+}
+
+.redessociales {
+  margin-top: 11px;
+}
+
+.table {
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.likeBtn {
+  float: right;
+}
+
+.href {
+  text-decoration: none;
+}
+
+.titulocards {
+  color: #302880;
+}
+
+.section::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-left: 0;
+  border-right: 0;
+  background-color: #302880;
+}
